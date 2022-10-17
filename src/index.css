@@ -1,0 +1,24 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(216, 208, 65);
+  color: white;
+  position: fixed;
+  width: 1000%;
+  top: 0;
+}
+.header img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.logo {
+  font-size: 20px;
+}
+.text-center {
+  color: pink;
+  font-size: 100px;
+}

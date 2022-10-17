@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+  padding: 50px;
+}
+.sidebar {
+  position: fixed;
+  background: rgb(205, 222, 49);
+  color: rgb(239, 194, 44);
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+  position: fixed;
+  left: 0;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 15px;
+}
+.logo {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: pink;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.link:hover {
+  background: pink;
+  color: #ffff;
+  transition: all 0.5s;
+  margin-left: 5px;
+}
+.active {
+  background: rgb(201, 30, 15);
+  color: rgb(234, 198, 21);
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.hover-effect:hover {
+  background-color:pink;
+  cursor: pointer;
+}
+.navbar {
+  background-color: pink;
+}
+
